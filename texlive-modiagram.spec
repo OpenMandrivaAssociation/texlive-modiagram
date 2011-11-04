@@ -1,3 +1,9 @@
+# revision 24427
+# category Package
+# catalog-ctan /macros/latex/contrib/modiagram
+# catalog-date 2011-10-28 19:27:59 +0200
+# catalog-license lppl1.3
+# catalog-version 0.2
 Name:		texlive-modiagram
 Version:	0.2
 Release:	1
@@ -46,6 +52,7 @@ LaTeX 3 experimental distribution.
 %doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_de.tex
 %doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_en.pdf
 %doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_en.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ LaTeX 3 experimental distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
