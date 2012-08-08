@@ -1,11 +1,11 @@
-# revision 25181
+# revision 27173
 # category Package
 # catalog-ctan /macros/latex/contrib/modiagram
-# catalog-date 2012-01-23 19:33:33 +0100
+# catalog-date 2012-07-26 15:37:06 +0200
 # catalog-license lppl1.3
-# catalog-version 0.2a
+# catalog-version 0.2b
 Name:		texlive-modiagram
-Version:	0.2a
+Version:	0.2b
 Release:	1
 Summary:	Drawing molecular orbital diagrams
 Group:		Publishing
@@ -39,10 +39,8 @@ LaTeX 3 experimental distribution.
 %files
 %{_texmfdistdir}/tex/latex/modiagram/modiagram.sty
 %doc %{_texmfdistdir}/doc/latex/modiagram/README
-%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_de.pdf
-%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_de.tex
-%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_en.pdf
-%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_doc_en.tex
+%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_en.pdf
+%doc %{_texmfdistdir}/doc/latex/modiagram/modiagram_en.tex
 
 #-----------------------------------------------------------------------
 %prep
