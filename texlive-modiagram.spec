@@ -51,3 +51,25 @@ LaTeX 3 experimental distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2b-1
++ Revision: 812625
+- Update to latest release.
+
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2a-1
++ Revision: 770226
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 754093
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 719054
+- texlive-modiagram
+- texlive-modiagram
+- texlive-modiagram
+- texlive-modiagram
+
