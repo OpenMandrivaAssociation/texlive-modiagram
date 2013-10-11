@@ -1,11 +1,11 @@
-# revision 27173
+# revision 30169
 # category Package
 # catalog-ctan /macros/latex/contrib/modiagram
-# catalog-date 2012-07-26 15:37:06 +0200
+# catalog-date 2013-04-28 23:24:16 +0200
 # catalog-license lppl1.3
-# catalog-version 0.2b
+# catalog-version 0.2c
 Name:		texlive-modiagram
-Version:	0.2b
+Version:	0.2c
 Release:	1
 Summary:	Drawing molecular orbital diagrams
 Group:		Publishing
@@ -51,25 +51,3 @@ LaTeX 3 experimental distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2b-1
-+ Revision: 812625
-- Update to latest release.
-
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2a-1
-+ Revision: 770226
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 754093
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 719054
-- texlive-modiagram
-- texlive-modiagram
-- texlive-modiagram
-- texlive-modiagram
-
