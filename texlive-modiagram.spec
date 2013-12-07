@@ -6,7 +6,7 @@
 # catalog-version 0.2c
 Name:		texlive-modiagram
 Version:	0.2c
-Release:	3
+Release:	4
 Summary:	Drawing molecular orbital diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modiagram
