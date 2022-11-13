@@ -1,18 +1,12 @@
-# revision 34010
-# category Package
-# catalog-ctan /macros/latex/contrib/modiagram
-# catalog-date 2014-05-13 19:18:34 +0200
-# catalog-license lppl1.3
-# catalog-version 0.2d
 Name:		texlive-modiagram
-Version:	0.2g
-Release:	2
+Version:	56886
+Release:	1
 Summary:	Drawing molecular orbital diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modiagram
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ package also needs the l3kernel and l3packages bundles from the
 LaTeX 3 experimental distribution.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,7 @@ LaTeX 3 experimental distribution.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
