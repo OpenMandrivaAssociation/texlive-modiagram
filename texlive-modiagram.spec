@@ -3,7 +3,7 @@ Version:	56886
 Release:	2
 Summary:	Drawing molecular orbital diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/modiagram
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/modiagram
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/modiagram.doc.r%{version}.tar.xz
